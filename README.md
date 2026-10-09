@@ -74,8 +74,8 @@ amanah-trustlayer/
 │   └── evaluate.py                         # metrics, per-class, confusion matrix, latency, figures
 ├── scripts/
 │   ├── validate.py                         # dataset integrity + label-integrity checks
-│   ├── build_nb01.py                       # builder for notebook 01
-│   └── build_nb02.py                       # builder for notebook 02
+│   ├── build_notebook_01.py                # builder for the data-exploration notebook
+│   └── build_notebook_02.py                # builder for the anomaly-injection notebook
 ├── results/
 │   ├── detector_metrics.json               # headline detection + separation + SHAP
 │   ├── metrics_full.json                   # everything incl. per-class + latency
