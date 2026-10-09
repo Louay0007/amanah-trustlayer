@@ -1,0 +1,16 @@
+anomaly_id,class,n_nodes,n_nodes_detected,event_detected,min_delay_min
+1,genuine_event,24,24,True,0.0
+3,genuine_event,1,1,True,0.0
+5,equipment_fault,1,1,True,0.0
+6,equipment_fault,1,1,True,0.0
+7,equipment_fault,1,1,True,0.0
+12,degraded_sensor,1,1,True,15.0
+13,degraded_sensor,1,1,True,15.0
+14,degraded_sensor,1,1,True,15.0
+15,degraded_sensor,1,1,True,15.0
+16,degraded_sensor,1,1,True,0.0
+17,biased_reading,1,1,True,0.0
+18,biased_reading,1,1,True,0.0
+20,corrupted_reading,1,1,True,15.0
+21,corrupted_reading,1,1,True,0.0
+23,corrupted_reading,1,1,True,0.0

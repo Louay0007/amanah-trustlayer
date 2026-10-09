@@ -1,0 +1,39 @@
+{
+  "detection": {
+    "split": "test",
+    "flagged": 320,
+    "tp": 263,
+    "fp": 57,
+    "fn": 39,
+    "precision": 0.8219,
+    "recall": 0.8709,
+    "f1": 0.8457,
+    "false_positive_rate": 0.000306
+  },
+  "separation": {
+    "genuine_flagged": 204,
+    "dq_flagged": 116,
+    "genuine_correct": 196,
+    "dq_correct": 67,
+    "verdict_accuracy": 0.8219
+  },
+  "if_feature_importance_shap": {
+    "z_score": 2.7007,
+    "z_step": 1.4986,
+    "head_res": 0.7757,
+    "peer_z": 0.46,
+    "flatline": 0.2117,
+    "recon_err": 0.1101
+  },
+  "thresholds": {
+    "z": 3.5,
+    "z_step": 6.0,
+    "flatline": 4,
+    "recon_eps": 0.25,
+    "head_eps": 0.1
+  },
+  "train_frac": 0.7,
+  "train_rows": 435240,
+  "test_rows": 186840,
+  "decision_log_rows": 683
+}

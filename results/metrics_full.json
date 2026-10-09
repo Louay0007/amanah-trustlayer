@@ -1,0 +1,103 @@
+{
+  "detection_test": {
+    "split": "test",
+    "flagged": 320,
+    "tp": 263,
+    "fp": 57,
+    "fn": 39,
+    "precision": 0.8219,
+    "recall": 0.8709,
+    "f1": 0.8457,
+    "false_positive_rate": 0.000306
+  },
+  "separation_test": {
+    "genuine_flagged": 204,
+    "dq_flagged": 116,
+    "genuine_correct": 196,
+    "dq_correct": 67,
+    "verdict_accuracy": 0.8219
+  },
+  "per_class": [
+    {
+      "anomaly_class": "biased_reading",
+      "is_genuine_grid_event": false,
+      "support_cells": 24,
+      "flagged_cells": 12,
+      "recall": 0.5,
+      "verdict_target": "DATA_QUALITY_PROBLEM",
+      "verdict_accuracy": 1.0
+    },
+    {
+      "anomaly_class": "corrupted_reading",
+      "is_genuine_grid_event": false,
+      "support_cells": 8,
+      "flagged_cells": 7,
+      "recall": 0.875,
+      "verdict_target": "DATA_QUALITY_PROBLEM",
+      "verdict_accuracy": 1.0
+    },
+    {
+      "anomaly_class": "degraded_sensor",
+      "is_genuine_grid_event": false,
+      "support_cells": 64,
+      "flagged_cells": 48,
+      "recall": 0.75,
+      "verdict_target": "DATA_QUALITY_PROBLEM",
+      "verdict_accuracy": 1.0
+    },
+    {
+      "anomaly_class": "equipment_fault",
+      "is_genuine_grid_event": true,
+      "support_cells": 14,
+      "flagged_cells": 4,
+      "recall": 0.2857,
+      "verdict_target": "GENUINE_GRID_EVENT",
+      "verdict_accuracy": 1.0
+    },
+    {
+      "anomaly_class": "genuine_event",
+      "is_genuine_grid_event": true,
+      "support_cells": 192,
+      "flagged_cells": 192,
+      "recall": 1.0,
+      "verdict_target": "GENUINE_GRID_EVENT",
+      "verdict_accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": {
+    "NORMAL": {
+      "normal": 186481,
+      "genuine": 10,
+      "data_quality": 29
+    },
+    "GENUINE_GRID_EVENT": {
+      "normal": 8,
+      "genuine": 196,
+      "data_quality": 0
+    },
+    "DATA_QUALITY_PROBLEM": {
+      "normal": 49,
+      "genuine": 0,
+      "data_quality": 67
+    }
+  },
+  "latency": {
+    "node_instances": 38,
+    "node_detected": 38,
+    "node_recall": 1.0,
+    "delay_median_min": 0.0,
+    "delay_mean_min": 1.97,
+    "delay_p95_min": 15.0,
+    "events": 15,
+    "events_detected": 15,
+    "event_recall": 1.0
+  },
+  "if_feature_importance_shap": {
+    "z_score": 2.7007,
+    "z_step": 1.4986,
+    "head_res": 0.7757,
+    "peer_z": 0.46,
+    "flatline": 0.2117,
+    "recon_err": 0.1101
+  }
+}

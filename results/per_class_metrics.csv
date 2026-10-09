@@ -1,0 +1,6 @@
+anomaly_class,is_genuine_grid_event,support_cells,flagged_cells,recall,verdict_target,verdict_accuracy
+biased_reading,False,24,12,0.5,DATA_QUALITY_PROBLEM,1.0
+corrupted_reading,False,8,7,0.875,DATA_QUALITY_PROBLEM,1.0
+degraded_sensor,False,64,48,0.75,DATA_QUALITY_PROBLEM,1.0
+equipment_fault,True,14,4,0.2857,GENUINE_GRID_EVENT,1.0
+genuine_event,True,192,192,1.0,GENUINE_GRID_EVENT,1.0

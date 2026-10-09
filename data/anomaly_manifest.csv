@@ -1,0 +1,100 @@
+anomaly_id,node_id,channel,class,subtype,start_ts,end_ts,params,provenance_source,is_genuine_grid_event,seed
+1,HH01,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH01,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH02,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH02,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH03,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH03,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH04,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH04,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH05,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH05,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH06,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH06,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH07,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH07,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH08,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH08,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH09,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH09,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH10,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH10,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH11,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH11,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH12,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH12,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH13,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH13,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH14,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH14,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH15,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH15,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH16,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH16,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH17,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH17,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH18,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH18,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH19,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH19,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH20,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH20,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH21,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH21,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH22,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH22,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH23,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH23,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH24,I,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+1,HH24,P,genuine_event,heat_surge,2026-07-26 12:15:00,2026-07-26 13:00:00,"{""add_peak_mult"": 1.5, ""n_nodes"": 24}",smart_meter,True,2026
+2,PV01,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV01,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV02,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV02,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV03,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV03,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV04,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV04,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV05,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV05,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV06,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV06,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV07,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV07,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV08,I,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+2,PV08,P,genuine_event,pv_cloud_dip,2026-07-06 08:30:00,2026-07-06 09:15:00,"{""scale"": 0.08, ""n_nodes"": 8}",pv_inverter,True,2026
+3,HH01,I,genuine_event,ev_block_load,2026-07-20 04:00:00,2026-07-20 04:45:00,"{""add_kw"": 2.572}",smart_meter,True,2026
+3,HH01,P,genuine_event,ev_block_load,2026-07-20 04:00:00,2026-07-20 04:45:00,"{""add_kw"": 2.572}",smart_meter,True,2026
+4,COLDSTORE,I,genuine_event,maintenance_outage,2026-07-14 23:00:00,2026-07-15 01:45:00,{},submeter,True,2026
+4,COLDSTORE,P,genuine_event,maintenance_outage,2026-07-14 23:00:00,2026-07-15 01:45:00,{},submeter,True,2026
+4,COLDSTORE,Q,genuine_event,maintenance_outage,2026-07-14 23:00:00,2026-07-15 01:45:00,{},submeter,True,2026
+5,HH02,I,equipment_fault,voltage_sag,2026-07-12 02:15:00,2026-07-12 03:00:00,"{""dip"": 0.18}",smart_meter,True,2026
+5,HH02,V,equipment_fault,voltage_sag,2026-07-12 02:15:00,2026-07-12 03:00:00,"{""dip"": 0.18}",smart_meter,True,2026
+6,HH16,I,equipment_fault,voltage_swell,2026-07-11 15:00:00,2026-07-11 15:45:00,"{""swell"": 0.12}",smart_meter,True,2026
+6,HH16,V,equipment_fault,voltage_swell,2026-07-11 15:00:00,2026-07-11 15:45:00,"{""swell"": 0.12}",smart_meter,True,2026
+7,PV07,I,equipment_fault,voltage_sag,2026-07-24 16:15:00,2026-07-24 17:00:00,"{""dip"": 0.15}",pv_inverter,True,2026
+7,PV07,V,equipment_fault,voltage_sag,2026-07-24 16:15:00,2026-07-24 17:00:00,"{""dip"": 0.15}",pv_inverter,True,2026
+8,HH17,I,equipment_fault,inrush_spike,2026-07-28 03:00:00,2026-07-28 03:30:00,"{""peak_mult"": 2.6}",smart_meter,True,2026
+8,HH17,P,equipment_fault,inrush_spike,2026-07-28 03:00:00,2026-07-28 03:30:00,"{""peak_mult"": 2.6}",smart_meter,True,2026
+9,HH18,I,natural_failure,open_circuit,2026-07-06 07:15:00,2026-07-06 09:30:00,{},smart_meter,True,2026
+9,HH18,P,natural_failure,open_circuit,2026-07-06 07:15:00,2026-07-06 09:30:00,{},smart_meter,True,2026
+9,HH18,Q,natural_failure,open_circuit,2026-07-06 07:15:00,2026-07-06 09:30:00,{},smart_meter,True,2026
+10,PV07,I,natural_failure,total_loss,2026-07-20 12:15:00,2026-07-20 14:30:00,{},pv_inverter,True,2026
+10,PV07,P,natural_failure,total_loss,2026-07-20 12:15:00,2026-07-20 14:30:00,{},pv_inverter,True,2026
+10,PV07,Q,natural_failure,total_loss,2026-07-20 12:15:00,2026-07-20 14:30:00,{},pv_inverter,True,2026
+11,CLINIC,I,natural_failure,gradual_degradation,2026-07-09 21:15:00,2026-07-10 02:00:00,"{""drop"": 0.8}",submeter,True,2026
+11,CLINIC,P,natural_failure,gradual_degradation,2026-07-09 21:15:00,2026-07-10 02:00:00,"{""drop"": 0.8}",submeter,True,2026
+12,HH04,P,degraded_sensor,drift_mult,2026-07-29 18:15:00,2026-07-30 00:00:00,"{""alpha"": 0.6}",smart_meter,False,2026
+13,HH18,V,degraded_sensor,drift_mult,2026-07-28 08:45:00,2026-07-28 14:30:00,"{""alpha"": 0.1}",smart_meter,False,2026
+14,HH07,PF,degraded_sensor,drift_add,2026-07-19 22:00:00,2026-07-20 03:45:00,"{""beta"": 0.2}",smart_meter,False,2026
+15,HH15,I,degraded_sensor,stuck_at,2026-07-23 10:45:00,2026-07-23 14:30:00,"{""frozen"": 7.378}",smart_meter,False,2026
+16,HH03,V,degraded_sensor,noise_rise,2026-07-16 08:45:00,2026-07-16 12:30:00,"{""sigma0"": 1.5, ""sigma1"": 13.5}",smart_meter,False,2026
+17,HH23,P,biased_reading,gain,2026-07-27 03:00:00,2026-07-27 05:45:00,"{""gain"": 1.15}",smart_meter,False,2026
+18,HH23,I,biased_reading,offset,2026-07-24 19:45:00,2026-07-24 22:30:00,"{""offset_a"": 4.0}",smart_meter,False,2026
+19,PV05,P,biased_reading,sign_inversion,2026-07-19 03:30:00,2026-07-19 05:15:00,{},pv_inverter,False,2026
+20,HH05,P,corrupted_reading,flatline,2026-07-11 07:30:00,2026-07-11 09:45:00,"{""const"": 1.108}",smart_meter,False,2026
+21,HH12,I,corrupted_reading,random_noise,2026-07-29 07:45:00,2026-07-29 09:30:00,"{""lo"": 0.0, ""hi"": 40.0}",smart_meter,False,2026
+22,HH11,I,corrupted_reading,forged_plausible,2026-07-07 19:30:00,2026-07-07 21:45:00,"{""band"": [1.82, 2.6]}",smart_meter,False,2026
+22,HH11,P,corrupted_reading,forged_plausible,2026-07-07 19:30:00,2026-07-07 21:45:00,"{""band"": [1.82, 2.6]}",smart_meter,False,2026
+23,HH01,I,corrupted_reading,forged_plausible,2026-07-21 04:45:00,2026-07-21 07:00:00,"{""band"": [0.06, 0.32]}",smart_meter,False,2026
+23,HH01,P,corrupted_reading,forged_plausible,2026-07-21 04:45:00,2026-07-21 07:00:00,"{""band"": [0.06, 0.32]}",smart_meter,False,2026

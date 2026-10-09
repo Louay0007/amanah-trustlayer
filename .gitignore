@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large raw baseline — fully regenerable via `python src/simulate.py`
+# (its clean content is embedded in the labeled dataset below)
+data/raw/*.csv
+
+# The Phase-1 labeled dataset IS committed (spec requires the repo to contain the dataset).
+# The raw baseline is NOT, to keep the repo lean — regenerate it with src/simulate.py.
+
+# Keep these even if patterns above ignore
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/anomaly_manifest.csv
+!data/processed/amanah_labeled.csv
+
+# OS
+.DS_Store
