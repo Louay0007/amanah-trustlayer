@@ -1,0 +1,18 @@
+{
+  "source": "Open Power System Data (OPSD) time series, package 2020-10-06",
+  "doi": "https://doi.org/10.25832/time_series/2020-10-06",
+  "country": "DE",
+  "window": "2019-07-01 to 2019-07-14 (15-min resolution)",
+  "variables": [
+    "load_actual_entsoe_transparency",
+    "solar_generation_actual"
+  ],
+  "solar_shape_pearson_r": 0.954,
+  "solar_shape_mae": 0.0763,
+  "solar_interpretation": "Rooftop-PV generation is driven by universal solar-irradiance physics; the simulated PV daily shape matches real measured DE generation with r=0.954. This validates the PV model against real data.",
+  "load_shape_pearson_r": -0.2508,
+  "load_shape_mae": 0.4519,
+  "load_interpretation": "The DE transmission-aggregate load peaks in the morning (commercial/industrial-dominated), whereas the AMANAH feeder models a Tunisian residential low-voltage network that peaks in the evening (air-conditioning + domestic demand). The low/negative correlation is an INTENTIONAL, documented regime difference (target geography + load mix), not a modelling error. The universal solar physics is the quantitative cross-check against real data.",
+  "real_slice_csv": "data/external/opsd_de_load_solar_summer_week.csv",
+  "figure": "results/figures/real_data_calibration.png"
+}

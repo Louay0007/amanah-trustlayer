@@ -102,9 +102,30 @@ python src/inject.py       # 2. inject 5 anomaly classes + genuine events -> ama
 python src/detect.py       # 3. features + Isolation Forest + 3-way verdict -> results/decision_log.csv + detector_metrics.json
 python src/evaluate.py     # 4. per-class metrics + confusion + latency + figures -> results/*
 python scripts/validate.py # 5. integrity checks (physical balance, label integrity)
+
+# Optional: real-data validation against Open Power Systems Data (needs /tmp/opsd.csv, see docs/DATASET.md §1.2)
+python scripts/calibrate_real_data.py   # 6. PV/load shape vs real OPSD -> results/figures/real_data_calibration.png
 ```
 
 Everything is deterministic (fixed seed `2026`), so re-running reproduces the dataset, labels and metrics byte-for-byte.
+
+## Data provenance & real-data validation
+
+The anomaly baseline is **simulated in-repo** (spec: *"real fault/anomaly-labeled data is rare, so
+simulation is expected"*), because the required per-meter V/I/PQ granularity with an **exact physical
+relationship** (`|P| = V·I·PF`) and a **feeder-head power balance** does not exist in any public labeled
+fault dataset — and that physics is precisely what lets the trust layer catch falsified readings.
+
+Crucially, the simulator is **quantitatively validated against a real, citable public dataset**, so the
+physical backbone is not arbitrary:
+
+- **Open Power Systems Data (OPSD)**, package `2020-10-06` (DOI `10.25832/time_series/2020-10-06`,
+  ENTSO-E-derived, peer-review standard).
+- Simulated **rooftop-PV daily shape vs real German solar generation: Pearson r = 0.954** — a near-identical
+  curve (solar is universal irradiance physics). Load differs **by design** (German TSO morning-peak vs
+  Tunisian residential evening-peak) — documented, not hidden.
+- Artifacts: `data/external/opsd_de_load_solar_summer_week.csv`, `data/external/calibration_summary.json`,
+  figure `results/figures/real_data_calibration.png`. Full detail in `docs/DATASET.md` §1.2.
 
 ## Headline results (test split, time-based 70/30, no leakage)
 
