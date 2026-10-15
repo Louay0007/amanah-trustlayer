@@ -54,7 +54,7 @@ amanah-trustlayer/
 ├── requirements.txt              # pinned deps for reproducibility
 ├── requirements.lock.txt         # full pip-freeze snapshot
 ├── assets/
-│   └── ieee_ies_issatm_logo.png
+│ 
 ├── data/
 │   ├── raw/
 │   │   └── amanah_baseline_clean.csv      # physics LV-feeder baseline (regenerate: src/simulate.py)
