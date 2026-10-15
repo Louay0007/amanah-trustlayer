@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="assets/ieee_ies_issatm_logo.png" alt="IEEE IES ISSATM" width="150"/>
-</div>
+
 
 # AMANAH Trust Layer — EnergyMind Tunisia (IEEE TSYP14)
 
