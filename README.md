@@ -2,7 +2,6 @@
 
 # AMANAH Trust Layer — EnergyMind Tunisia (IEEE TSYP14)
 
-**Team:** _[official team name]_ &nbsp;·&nbsp; **Branch:** _[IEEE Student Branch]_ &nbsp;·&nbsp; **Team size:** ≤5 &nbsp;·&nbsp; **Phase 1 submission — deadline 15/10/2026**
 
 **Challenge:** [EnergyMind Tunisia — Architects of the Energy Noosphere: A Human–AI Collective Intelligence Network for Energy Resilience](https://tsyp.ieee.tn/program/challenges/) · **Phase 1 submission — deadline 15/10/2026**
 
